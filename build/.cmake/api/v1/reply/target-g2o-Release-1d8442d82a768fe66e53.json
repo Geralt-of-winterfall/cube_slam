@@ -1,0 +1,846 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/lib/libg2o.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_LIBRARY",
+			"ADD_DEFINITIONS",
+			"add_definitions",
+			"find_package",
+			"find_qhull",
+			"find_external_library",
+			"set_property",
+			"include",
+			"include_directories",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"thirdparty/g2o/CMakeLists.txt",
+			"/usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindQhull.cmake",
+			"/usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake",
+			"src/orb_object_slam/CMakeLists.txt",
+			"/usr/lib/cmake/vtk-7.1/UseVTK.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 3
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 548,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 320,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 165,
+				"parent" : 7
+			},
+			{
+				"file" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 88,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 548,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 351,
+				"parent" : 11
+			},
+			{
+				"file" : 4,
+				"parent" : 12
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 23,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 26,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++11   -O3 -DNDEBUG -fPIC  "
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "UNIX"
+				},
+				{
+					"define" : "g2o_EXPORTS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "qh_QHpointer"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "/usr/include/vtk-7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/usr/include/eigen3"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				11,
+				16,
+				22,
+				26,
+				27,
+				33,
+				35,
+				37,
+				39,
+				42,
+				43,
+				46,
+				50,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				74,
+				79,
+				80
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -O3 -DNDEBUG -fPIC  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "UNIX"
+				},
+				{
+					"define" : "g2o_EXPORTS"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "qh_QHpointer"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "/usr/include/vtk-7.1"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/usr/include/freetype2"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/usr/include/eigen3"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				77
+			]
+		}
+	],
+	"id" : "g2o::@25b0eceb8ff63ac181df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/usr/lib/gcc/x86_64-linux-gnu/8",
+				"role" : "libraryPath"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "g2o",
+	"nameOnDisk" : "libg2o.so",
+	"paths" : 
+	{
+		"build" : "thirdparty/g2o/build",
+		"source" : "thirdparty/g2o"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				13,
+				14,
+				15,
+				17,
+				18,
+				19,
+				20,
+				21,
+				23,
+				24,
+				25,
+				28,
+				29,
+				30,
+				31,
+				32,
+				34,
+				36,
+				38,
+				40,
+				41,
+				44,
+				45,
+				47,
+				48,
+				49,
+				51,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				71,
+				72,
+				73,
+				75,
+				76,
+				78,
+				81
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				11,
+				16,
+				22,
+				26,
+				27,
+				33,
+				35,
+				37,
+				39,
+				42,
+				43,
+				46,
+				50,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				74,
+				77,
+				79,
+				80
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/types/types_sba.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/types/types_six_dof_expmap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/types/types_sba.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/types/types_seven_dof_expmap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/types/se3quat.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/types/se3_ops.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/types/se3_ops.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/base_edge.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/base_binary_edge.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/hyper_graph_action.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/base_binary_edge.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/hyper_graph_action.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/base_multi_edge.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/eigen_types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/hyper_graph.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/base_multi_edge.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/hyper_graph.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/base_unary_edge.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/linear_solver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/base_unary_edge.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/base_vertex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/marginal_covariance_cholesky.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/base_vertex.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/matrix_structure.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/batch_stats.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/matrix_structure.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/batch_stats.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/openmp_mutex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/block_solver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/block_solver.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/parameter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/parameter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/cache.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/cache.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/optimizable_graph.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/optimizable_graph.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/solver.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/solver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/creators.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/estimate_propagator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/optimization_algorithm_factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/estimate_propagator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/optimization_algorithm_property.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/sparse_block_matrix.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/sparse_optimizer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/sparse_block_matrix.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/sparse_optimizer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/hyper_dijkstra.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/hyper_dijkstra.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/parameter_container.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/parameter_container.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/optimization_algorithm.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/optimization_algorithm.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/jacobian_workspace.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/jacobian_workspace.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/robust_kernel.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/robust_kernel.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/robust_kernel_factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/robust_kernel_factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/core/robust_kernel_impl.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/core/robust_kernel_impl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/stuff/string_tools.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/stuff/color_macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/stuff/macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/stuff/timeutil.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/stuff/misc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/stuff/timeutil.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "thirdparty/g2o/g2o/stuff/os_specific.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/stuff/os_specific.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/stuff/string_tools.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "thirdparty/g2o/g2o/stuff/property.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "thirdparty/g2o/g2o/stuff/property.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

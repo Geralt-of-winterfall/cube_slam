@@ -1,0 +1,255 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/orb_object_slam",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/orb_object_slam",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "thirdparty/DBoW2/build",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "thirdparty/DBoW2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "thirdparty/g2o/build",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "thirdparty/g2o",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/detect_cuboid/build",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "src/detect_cuboid",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "src/multi_settings/build",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "src/multi_settings",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cube_slam",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "orb_and_object_slam",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "DBoW2",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "g2o",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "detect_cuboid",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "multi_settings",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "DBoW2::@cf490ef4de170cc6f6f2",
+					"jsonFile" : "target-DBoW2-Release-17422fbd455ffdfe82e8.json",
+					"name" : "DBoW2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cube_slam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cube_slam-Release-997dae8fd9fdab5ddde9.json",
+					"name" : "cube_slam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "detect_cuboid::@efdb73d9b1613f7b08b3",
+					"jsonFile" : "target-detect_cuboid-Release-463b2ebc20bc8866b71a.json",
+					"name" : "detect_cuboid",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "g2o::@25b0eceb8ff63ac181df",
+					"jsonFile" : "target-g2o-Release-1d8442d82a768fe66e53.json",
+					"name" : "g2o",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "line_lsd_lib::@efdb73d9b1613f7b08b3",
+					"jsonFile" : "target-line_lsd_lib-Release-b497cba9bfe361e1d262.json",
+					"name" : "line_lsd_lib",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "multi_settings::@ca9445c16cfc15d13400",
+					"jsonFile" : "target-multi_settings-Release-2b2000bbce9fd31bd5bb.json",
+					"name" : "multi_settings",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "orb_and_object_slam::@abdbb074797ec36f6b5e",
+					"jsonFile" : "target-orb_and_object_slam-Release-5f33222945c8b96f2859.json",
+					"name" : "orb_and_object_slam",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robertkidder/桌面/cubeslam_others/cube_slam/build",
+		"source" : "/home/robertkidder/桌面/cubeslam_others/cube_slam"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

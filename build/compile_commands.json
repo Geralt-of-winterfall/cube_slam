@@ -1,0 +1,367 @@
+[
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2  -O3 -DNDEBUG   -std=gnu++17 -o CMakeFiles/cube_slam.dir/src/cube_slam.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/cube_slam.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/cube_slam.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/System.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/System.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/System.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/Tracking.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Tracking.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Tracking.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/Tracking_util.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Tracking_util.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Tracking_util.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/LocalMapping.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/LocalMapping.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/LocalMapping.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/LoopClosing.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/LoopClosing.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/LoopClosing.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/ORBextractor.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/ORBextractor.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/ORBextractor.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/ORBmatcher.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/ORBmatcher.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/ORBmatcher.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/FrameDrawer.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/FrameDrawer.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/FrameDrawer.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/Converter.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Converter.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Converter.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/MapPoint.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/MapPoint.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/MapPoint.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/MapObject.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/MapObject.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/MapObject.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/KeyFrame.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/KeyFrame.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/KeyFrame.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/Map.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Map.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Map.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/MapDrawer.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/MapDrawer.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/MapDrawer.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/Optimizer.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Optimizer.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Optimizer.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/PnPsolver.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/PnPsolver.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/PnPsolver.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/Frame.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Frame.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Frame.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/KeyFrameDatabase.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/KeyFrameDatabase.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/KeyFrameDatabase.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/Sim3Solver.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Sim3Solver.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Sim3Solver.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/Initializer.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Initializer.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Initializer.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/Viewer.cc.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Viewer.cc",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Viewer.cc"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/Parameters.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Parameters.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/Parameters.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/g2o_Object.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/g2o_Object.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/g2o_Object.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/orb_object_slam",
+  "command": "/usr/bin/c++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"x11\\\" -D_LINUX_ -Dorb_and_object_slam_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/.. -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/DBoW2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/../../thirdparty/g2o -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/local/include/opencv4 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/orb_and_object_slam.dir/YOLOv5Detector.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/YOLOv5Detector.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/orb_object_slam/YOLOv5Detector.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/DBoW2/build",
+  "command": "/usr/bin/c++  -DDBoW2_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -isystem /usr/local/include/opencv4    -Wall  -O3 -march=native -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/DBoW2.dir/DBoW2/BowVector.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DBoW2/BowVector.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DBoW2/BowVector.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/DBoW2/build",
+  "command": "/usr/bin/c++  -DDBoW2_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -isystem /usr/local/include/opencv4    -Wall  -O3 -march=native -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/DBoW2.dir/DBoW2/FORB.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DBoW2/FORB.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DBoW2/FORB.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/DBoW2/build",
+  "command": "/usr/bin/c++  -DDBoW2_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -isystem /usr/local/include/opencv4    -Wall  -O3 -march=native -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/DBoW2.dir/DBoW2/FeatureVector.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DBoW2/FeatureVector.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DBoW2/FeatureVector.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/DBoW2/build",
+  "command": "/usr/bin/c++  -DDBoW2_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -isystem /usr/local/include/opencv4    -Wall  -O3 -march=native -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/DBoW2.dir/DBoW2/ScoringObject.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DBoW2/ScoringObject.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DBoW2/ScoringObject.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/DBoW2/build",
+  "command": "/usr/bin/c++  -DDBoW2_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -isystem /usr/local/include/opencv4    -Wall  -O3 -march=native -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/DBoW2.dir/DUtils/Random.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DUtils/Random.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DUtils/Random.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/DBoW2/build",
+  "command": "/usr/bin/c++  -DDBoW2_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -isystem /usr/local/include/opencv4    -Wall  -O3 -march=native -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/DBoW2.dir/DUtils/Timestamp.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DUtils/Timestamp.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/DBoW2/DUtils/Timestamp.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/types/types_sba.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/types/types_sba.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/hyper_graph_action.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/hyper_graph_action.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/hyper_graph.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/hyper_graph.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/matrix_structure.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/matrix_structure.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/batch_stats.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/batch_stats.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/parameter.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/parameter.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/cache.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/cache.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/cache.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/optimizable_graph.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/optimizable_graph.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/solver.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/solver.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/solver.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/estimate_propagator.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/estimate_propagator.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/factory.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/factory.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/factory.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/sparse_optimizer.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/sparse_optimizer.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/hyper_dijkstra.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/hyper_dijkstra.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/parameter_container.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/parameter_container.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/optimization_algorithm.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/optimization_algorithm.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/jacobian_workspace.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/jacobian_workspace.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/robust_kernel.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/robust_kernel.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/robust_kernel_factory.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/robust_kernel_factory.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/robust_kernel_impl.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/core/robust_kernel_impl.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/stuff/timeutil.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/stuff/timeutil.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/gcc-8 -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3    -O3 -DNDEBUG -fPIC   -o CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o   -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/stuff/os_specific.c",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/stuff/os_specific.c"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/stuff/string_tools.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/stuff/string_tools.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/thirdparty/g2o/build",
+  "command": "/usr/bin/c++  -DUNIX -Dg2o_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/core -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/types -I/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/stuff -I/usr/include/eigen3  -std=c++11   -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/stuff/property.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/thirdparty/g2o/g2o/stuff/property.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/detect_cuboid/build",
+  "command": "/usr/bin/c++  -Dline_lsd_lib_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/usr/include/eigen3 -I/usr/local/include/opencv4 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/include    -std=c++17 -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/line_lsd_lib.dir/libs/binary_descriptor.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/libs/binary_descriptor.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/libs/binary_descriptor.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/detect_cuboid/build",
+  "command": "/usr/bin/c++  -Dline_lsd_lib_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/usr/include/eigen3 -I/usr/local/include/opencv4 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/include    -std=c++17 -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/line_lsd_lib.dir/libs/binary_descriptor_matcher.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/libs/binary_descriptor_matcher.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/libs/binary_descriptor_matcher.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/detect_cuboid/build",
+  "command": "/usr/bin/c++  -Dline_lsd_lib_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/usr/include/eigen3 -I/usr/local/include/opencv4 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/include    -std=c++17 -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/line_lsd_lib.dir/libs/LSDDetector.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/libs/LSDDetector.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/libs/LSDDetector.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/detect_cuboid/build",
+  "command": "/usr/bin/c++  -Dline_lsd_lib_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/usr/include/eigen3 -I/usr/local/include/opencv4 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/include    -std=c++17 -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/line_lsd_lib.dir/libs/lsd.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/libs/lsd.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/libs/lsd.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/detect_cuboid/build",
+  "command": "/usr/bin/c++  -Dline_lsd_lib_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/usr/include/eigen3 -I/usr/local/include/opencv4 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/include    -std=c++17 -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/line_lsd_lib.dir/libs/draw.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/libs/draw.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/libs/draw.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/detect_cuboid/build",
+  "command": "/usr/bin/c++  -Dline_lsd_lib_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/usr/include/eigen3 -I/usr/local/include/opencv4 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/include    -std=c++17 -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/line_lsd_lib.dir/class/line_lbd_allclass.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/class/line_lbd_allclass.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/class/line_lbd_allclass.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/detect_cuboid/build",
+  "command": "/usr/bin/c++  -Ddetect_cuboid_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/usr/include/eigen3 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/include -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid -isystem /usr/local/include/opencv4    -std=c++17 -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/detect_cuboid.dir/object_3d_util.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/object_3d_util.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/object_3d_util.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/detect_cuboid/build",
+  "command": "/usr/bin/c++  -Ddetect_cuboid_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/usr/include/eigen3 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/include -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid -isystem /usr/local/include/opencv4    -std=c++17 -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/detect_cuboid.dir/matrix_utils.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/matrix_utils.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/matrix_utils.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/detect_cuboid/build",
+  "command": "/usr/bin/c++  -Ddetect_cuboid_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/usr/include/eigen3 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/include -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid -isystem /usr/local/include/opencv4    -std=c++17 -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/detect_cuboid.dir/box_proposal_detail.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/box_proposal_detail.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/detect_cuboid/box_proposal_detail.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/multi_settings/build",
+  "command": "/usr/bin/c++  -Dmulti_settings_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings -isystem /usr/local/include/opencv4    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/multi_settings.dir/value.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings/value.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings/value.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/multi_settings/build",
+  "command": "/usr/bin/c++  -Dmulti_settings_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings -isystem /usr/local/include/opencv4    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/multi_settings.dir/structured_settings.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings/structured_settings.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings/structured_settings.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/multi_settings/build",
+  "command": "/usr/bin/c++  -Dmulti_settings_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings -isystem /usr/local/include/opencv4    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/multi_settings.dir/cli_settings.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings/cli_settings.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings/cli_settings.cpp"
+},
+{
+  "directory": "/home/robertkidder/桌面/cubeslam_others/cube_slam/build/src/multi_settings/build",
+  "command": "/usr/bin/c++  -Dmulti_settings_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings -isystem /usr/local/include/opencv4    -O3 -DNDEBUG -fPIC   -std=gnu++17 -o CMakeFiles/multi_settings.dir/multi_settings.cpp.o -c /home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings/multi_settings.cpp",
+  "file": "/home/robertkidder/桌面/cubeslam_others/cube_slam/src/multi_settings/multi_settings.cpp"
+}
+]
