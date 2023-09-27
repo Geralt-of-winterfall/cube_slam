@@ -5,5 +5,6 @@
 详见README_o.md
 
 ## 使用
-
-`./cube_slam /home/robertkidder/桌面/KITTI/dataset/sequences/07 ../data_folder/ ../data/ORBvoc.bin ../data/KITTI_mono.yaml`
+```bash
+./cube_slam /home/robertkidder/桌面/KITTI/dataset/sequences/07 ../data_folder/ ../data/ORBvoc.bin ../data/KITTI_mono.yaml
+```
