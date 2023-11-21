@@ -54,4 +54,4 @@ Any number of settings files can be provided and duplicated parameters overwrite
 from the CLI by passing additional parameters in the form `PARAMETER=VALUE`. The settings for the KITTI setup are provided in `data/KITTI_mono.yaml`.
 
 ## by me
-./cube_slam /home/robertkidder/桌面/KITTI/dataset/sequences/07 ../data_folder/ ../data/ORBvoc.bin ../data/KITTI_mono.yaml
+./cube_slam /home/username/桌面/KITTI/dataset/sequences/07 ../data_folder/ ../data/ORBvoc.bin ../data/KITTI_mono.yaml
